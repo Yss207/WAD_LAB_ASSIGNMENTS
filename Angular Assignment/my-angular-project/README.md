@@ -37,7 +37,8 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 ---
 
 ## 📂Project Structure
-    ```bash
+
+    ```
     src/
     ├── app/
     │   ├── components/
