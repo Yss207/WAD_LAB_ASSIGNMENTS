@@ -91,7 +91,7 @@ Open browser and visit http://localhost:4200
 
 ![Image](https://github.com/user-attachments/assets/67c2ff3b-321a-42f7-9c50-2562b6d074d4)
 
-![Image](https://github.com/user-attachments/assets/cc960b10-383e-4b3f-93c6-57c5ba104c8a)
+![Image](https://github.com/user-attachments/assets/32ec1322-b8f1-4661-b1c4-8273630497e8)
 
 ---
 
