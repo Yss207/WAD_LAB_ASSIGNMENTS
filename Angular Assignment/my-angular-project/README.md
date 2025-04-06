@@ -1,59 +1,81 @@
-# MyAngularProject
+# 📝 Angular Assignment – User Registration, Login & Profile
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+This Angular application was created as part of a college assignment with the objective to:
 
-## Development server
+> ✅ Register Users  
+> ✅ Allow Users to Login  
+> ✅ Display Logged-in User Data in a Profile Component  
 
-To start a local development server, run:
+The entire app is built using Angular and handles user data using **Browser LocalStorage** — no backend involved.
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 🚀 Features
 
-## Code scaffolding
+- 🧾 **User Registration Form**
+- 🔐 **User Login with Student ID and Password**
+- 👤 **Profile Page Showing User Details**
+- 🚪 **Logout Functionality**
+- 🌐 **Angular Routing with Navigation**
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🧠 Angular Concepts Used
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+- ✅ **Components** (`RegisterComponent`, `LoginComponent`, `ProfileComponent`)
+- ✅ **Modules** (`AppModule`, `AppRoutingModule`)
+- ✅ **Routing & Navigation** (`<router-outlet>`, `routerLink`)
+- ✅ **Two-Way Data Binding** (`[(ngModel)]`)
+- ✅ **Property Binding** (`[disabled]`, `[value]`, etc.)
+- ✅ **Event Binding** (`(click)`)
+- ✅ **Directives** (`*ngIf`, `*ngFor`)
+- ✅ **LocalStorage for persistent user session**
+- ✅ **Angular CLI** for generating and serving the app
 
-```bash
-ng generate --help
-```
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version **19.2.3**.
 
-## Building
+---
 
-To build the project run:
+## 📂Project Structure
+    ```bash
+    src/
+    ├── app/
+    │   ├── components/
+    │   │   ├── register/
+    │   │   ├── login/
+    │   │   └── profile/
+    │   ├── app-routing.module.ts
+    │   └── app.module.ts
+    ├── assets/
+    ├── index.html
+    └── main.ts
+    ```
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🛠️ How to Run Locally
 
-## Running unit tests
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/angular-user-auth-assignment.git
+   ```
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+2. Navigate into the project directory:
+   ```bash
+   cd angular-user-auth-assignment
+   ```
 
-```bash
-ng test
-```
+3. Install all the required dependencies:
+    ```bash
+    npm install
+    ```
 
-## Running end-to-end tests
+4. Run the development server:
+    ```bash
+    ng serve
+    ```
 
-For end-to-end (e2e) testing, run:
+Open browser and visit http://localhost:4200
 
-```bash
-ng e2e
-```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
