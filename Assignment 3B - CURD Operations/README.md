@@ -35,3 +35,7 @@ This project was created as **Assignment 3(b)** for the Web Application Developm
 | DELETE | `/delete-on-salary/:amount`      | Delete employees with salary less than a given value|
 
 ---
+
+### 📦 MongoDB Atlas (Stored Data)
+
+![Image](https://github.com/user-attachments/assets/ae82a822-507b-471e-a437-4f012e29db9c)
