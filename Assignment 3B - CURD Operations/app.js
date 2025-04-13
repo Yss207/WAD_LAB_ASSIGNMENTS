@@ -7,14 +7,17 @@ const PORT = 3000;
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://kbtug22077:1abfxtxyySr1BtoJ@cluster1.vobq5ro.mongodb.net/DB1')
-    .then(() => {
-        console.log('Connected to MongoDB');
-    })
-    .catch((err) => {
-        console.error('Error connecting to MongoDB:', err);
-    }
-    );
+//Due to GitGuardian warning of mongodb uri getting exposed, I have commented the mongoose.connect section
+//and removed the string connection part.
+
+// mongoose.connect('Insert connection string with appropriated password here')
+//     .then(() => {
+//         console.log('Connected to MongoDB');
+//     })
+//     .catch((err) => {
+//         console.error('Error connecting to MongoDB:', err);
+//     }
+//     );
 
 const EmployeeSchema = new mongoose.Schema({
     name: String,
